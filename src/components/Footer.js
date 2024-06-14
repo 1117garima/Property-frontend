@@ -14,14 +14,14 @@ const Footer = () => {
       '>
 
         {/* Contact */}
-        <div className='ml-[145px] col-start-1 col-end-4 flex flex-col  space-y-4 mmd:ml-0 '>
+        <div className='ml-[95px] col-start-1 col-end-4 flex flex-col  space-y-4 mmd:ml-0 '>
           <h1 className='text-[12px] text-start text-[#13263b] uppercase font-extrabold '>Contact</h1>
           <p className='text-[#888] text-sm'>Baluwatar, Kathmandu-4, Nepal</p>
 
           <div className='underline text-sm text-[#777]  flex flex-col gap-3'>
             <NavLink className='hover:text-black hover:no-underline'>9702393579 </NavLink>
             <NavLink className='hover:text-black hover:no-underline'>9702393579 </NavLink>
-            <NavLink className='hover:text-black hover:no-underline'>arinsunam@gmail.com</NavLink>
+            <NavLink className='hover:text-black hover:no-underline'>garimanepal@gmail.com</NavLink>
           </div>
         </div>
 
@@ -87,7 +87,7 @@ const Footer = () => {
         </div>
       </div>
 
-      <p className='pt-12 text-center text-sm text-[#888]'>Copyright &copy; 2024.  All rights reserved. __   Designed by <Link className='underline text-[#777] uppercase'>Arin</Link></p>
+      <p className='pt-12 text-center text-sm text-[#888]'>Copyright &copy; 2024.  All rights reserved. __   Designed by <Link className='underline text-[#777] uppercase'>Garima</Link></p>
 
       <p className='pt-4 text-center text-sm text-[#888]'> Distributed by <Link className='underline text-[#777] uppercase'>MeowSites</Link></p>
 

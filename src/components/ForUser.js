@@ -110,7 +110,7 @@ const ForUser = () => {
           <motion.div className='mt-[50px] flex flex-wrap mmd:grid mmd:grid-cols-2 mmd:space-x-4 msm:ml-9' variants={textVariants} whileInView="animate" initial="initial">
 
             {/* Data1 */}
-            <div className='mr-[130px] flex flex-col items-center'>
+            <div className='mr-[170px] flex flex-col items-center'>
               <h1 className='font-bold text-[40px] msm:text-[30px] text-[#13263b] '>{counterOn && <CountUp start={1000}
                 end={3981} duration={2} delay={0} />} </h1>
               <p className='text-sm text-[#777] '># Buy of properties</p>
@@ -118,7 +118,7 @@ const ForUser = () => {
             </div>
 
             {/* Data2 */}
-            <div className='mr-[130px] flex flex-col items-center'>
+            <div className='mr-[170px] flex flex-col items-center'>
               <h1 className='font-bold text-[40px] msm:text-[30px]  text-[#13263b] mmd:mr-0 '>{counterOn && <CountUp start={1000}
                 end={2217} duration={2} delay={0} />} </h1>
               <p className='text-sm text-[#777] '># of sell properties</p>
@@ -126,7 +126,7 @@ const ForUser = () => {
             </div>
 
             {/* Data3 */}
-            <div className='mr-[130px] flex flex-col items-center mmd:relative mmd:right-[70px]'>
+            <div className='mr-[200px] flex flex-col items-center mmd:relative mmd:right-[70px]'>
               <h1 className='font-bold text-[40px] msm:text-[30px]  text-[#13263b] '>{counterOn && <CountUp start={1000}
                 end={9812} duration={2} delay={0} />} </h1>
               <p className='text-sm text-[#777] '>#  of all properties</p>

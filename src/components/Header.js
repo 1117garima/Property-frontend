@@ -15,7 +15,7 @@ const Header = () => {
   return (
     <div >
       <Navbar
-        className='bg-[#005555] ml-[100px] my-[20px] w-[1125px] py-7 flex justify-between items-center shadow-none border-none  mmd:w-[575px] msm:w-[88vw] mmd:ml-[55px] msm:ml-[25px] msm:py-5'>
+        className='bg-[#005555] ml-[50px] my-[20px] w-[1155px] py-7 flex justify-between items-center shadow-none border-none  mmd:w-[575px] msm:w-[88vw] mmd:ml-[55px] msm:ml-[25px] msm:py-5'>
         <div>
           <NavLink className='font-semibold text-2xl py-5 text' > Property</NavLink>
         </div>
